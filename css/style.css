@@ -28,3 +28,6 @@
   h2{
       position: center;
   }
+  .background-image:-o-linear-gradient{
+      background-image: -moz-linear-gradient(red yellow );
+  }
