@@ -31,3 +31,21 @@
   .background-image:-o-linear-gradient{
       background-image: -moz-linear-gradient(red yellow );
   }
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+ .img-galeria3{
+     flex: 1 1 150px;
+ }
+ .img-galeria4{
+    flex: 1 1 150px;
+}
+.img-galeria5{
+    flex: 1 1 150px;
+}
+
+.img-galeria6{
+    flex: 1 1 150px;
+}
