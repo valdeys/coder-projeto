@@ -1,0 +1,30 @@
+
+  .link-danger{
+      color: red;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+      font-size: 16px;
+     
+  }
+  h1{
+      color:red;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: brown;
+  }
+ #lpos{
+      position: absolute;
+      left: 960px; 
+      top:30px;
+  }
+  .form-floating{
+      position:center;
+
+
+  }
+  .contato{
+  
+      position:center;
+  }
+  h2{
+      position: center;
+  }
