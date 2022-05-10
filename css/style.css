@@ -45,6 +45,7 @@ h2{
     border:1px solid #000;
     width:100%;
     margin-bottom: 10px;
+    hover:pointer;
    }
    .imagensdestaque img{
        opacity: 1 ;
