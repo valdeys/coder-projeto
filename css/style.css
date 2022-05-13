@@ -1,4 +1,6 @@
 body{
+    display: grid;
+    grid-row-gap: 1;
     font-family: "Open Sans",sans-serif;
     font-size: 10px;
     font-weight: 400;
@@ -44,11 +46,7 @@ h2{
     display: inline-block;
     border:1px solid #000;
     width:100%;
-<<<<<<< HEAD
     margin-bottom: 10px;    
-=======
-    margin-bottom: 10px;
->>>>>>> 20554d28424c23975aba9a07eb51b4bcebaf554e
     hover:pointer;
    }
    .imagensdestaque img{
@@ -94,7 +92,7 @@ h2{
         line-height: 1;
     
     }
-      .link{
+    .link{
           display:inline-block block;
           display:grid;
           grid-column: auto;
@@ -172,4 +170,14 @@ h2{
             height: 80px;
             margin: 3px;
         }
-    
+    .categorias{
+        position: absolute;
+        left: 960px; 
+        top:30px;
+    }
+    article{
+        position: absolute;
+        left: 960px; 
+        top:30px;
+        position: fixed;
+    }
