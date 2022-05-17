@@ -171,7 +171,7 @@ h2{
             margin: 3px;
         }
     .categorias{
-        position: absolute;
+        position: center;
         left: 960px; 
         top:30px;
     }
@@ -181,3 +181,4 @@ h2{
         top:30px;
         position: fixed;
     }
+  
