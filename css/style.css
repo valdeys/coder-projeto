@@ -1,4 +1,6 @@
 body{
+    display: grid;
+    grid-row-gap: 1;
     font-family: "Open Sans",sans-serif;
     font-size: 10px;
     font-weight: 400;
@@ -44,7 +46,7 @@ h2{
     display: inline-block;
     border:1px solid #000;
     width:100%;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
     hover:pointer;
    }
    .imagensdestaque img{
@@ -83,5 +85,99 @@ h2{
         height: 80px;
         margin: 3px;
     }
-
-  
+    body{
+        font-family: "Open Sans",sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1;
+    
+    }
+    .link{
+          display:inline-block block;
+          display:grid;
+          grid-column: auto;
+        color:red;
+        
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 16px;
+       
+    }
+    h1{
+        color:yellowgreen;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: red;
+        font-size:25px;
+    }
+    #lupa{
+        position: absolute;
+        left: 960px; 
+        top:30px;
+      
+    }
+    .form-floating{
+        position:center;
+    
+    
+    }
+    .contato{
+    
+        position:center;
+    }
+    h2{
+        position: center;
+    }
+    
+    .imagensdestaque{
+        display: inline-block;
+        border:1px solid #000;
+        width:100%;
+        margin-bottom: 10px;
+        hover:pointer;
+       }
+       .imagensdestaque img{
+           opacity: 1 ;
+           cursor:pointer;
+           width: 100px;
+           height: 80px;
+           margin: 3px;
+                
+       }
+       .imagensdestaque img:hover{
+         opacity: 2;  
+       }
+       .news-full:before {
+        background-color: #fff;
+             
+            position: absolute;
+            top: 0;
+            background-color: #000;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: .2;
+        }
+        .imagenscompletas{
+            display: inline-block;
+        border:1px solid #000;
+        width:100%;
+        margin-bottom: 10px;
+    
+        }
+        .imagenscompletas img{
+            opacity: 1 ;
+            cursor:pointer;
+            width: 100px;
+            height: 80px;
+            margin: 3px;
+        }
+    .categorias{
+        position: absolute;
+        left: 960px; 
+        top:30px;
+    }
+    article{
+        position: absolute;
+        left: 960px; 
+        top:30px;
+        position: fixed;
+    }
