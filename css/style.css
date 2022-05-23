@@ -1,9 +1,8 @@
 
 h1{
-    color:yellowgreen;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: red;
-    font-size:25px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: red;
+   font: size 20px;px;
 }
 #lupa{
     position: absolute;
@@ -52,47 +51,9 @@ h2{
         right: 0;
         bottom: 0;
         opacity: .2;
-    }
-   
-         
-    h1{
-        color:yellowgreen;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: red;
-        font-size:25px;
-    }
-    #lupa{
-        position: absolute;
-        left: 960px; 
-        top:30px;
-      
-    }
-    .form-floating{
-        position:center;
-    
-    
-    }
-    .contato{
-    
-        position:center;
-    }
-                  
-     
-       .imagensdestaque img:hover{
-         opacity: 2;  
-       }
-       .news-full:before {
-        background-color: #fff;
-             
-            position: absolute;
-            top: 0;
-            background-color: #000;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            opacity: .2;
-        }
-        .imagenscompletas{
+    }    
+                     
+     .imagenscompletas{
         display: inline-block;
         border: 1px solid blanchedalmond ;
         width:400%;
@@ -118,4 +79,8 @@ h2{
         top:30px;
         position: fixed;
     }
-  
+    .redesociais{
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+    }
