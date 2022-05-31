@@ -1,12 +1,13 @@
-
 h1{
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   font-family: Franklin Gothic Medium,Arial Narrow, Arial, sans-serif;
    background-color: red;
    font: size 20px;px;
+ 
 }
 #lupa{
     position: absolute;
-    left: 960px; 
+    left: 1500px; 
     top:30px;
   
 }
@@ -15,6 +16,7 @@ h1{
 
 
 }
+
 .contato{
 
     position:center;
@@ -41,33 +43,16 @@ h2{
    .imagensdestaque img:hover{
      opacity: 2;  
    }
-   .news-full:before {
-    background-color: #fff;
-         
-        position: absolute;
-        top: 0;
-        background-color: #000;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: .2;
-    }    
-                     
-     .imagenscompletas{
-        display: inline-block;
-        border: 1px solid blanchedalmond ;
-        width:400%;
-        margin-bottom: 10px;
-        height: 281px;
-      
-        }
-        .imagenscompletas img{
-            opacity: 1 ;
-            cursor:pointer;
-            width: 100px;
-            height: 80px;
-            margin: 3px;
-        }
+
+
+   .imagenscompletas img{
+    opacity: 1 ;
+    cursor:pointer;
+    width: 100px;
+    height: 80px;
+    margin: 3px;
+}
+
     .categorias{
         position: absolute;
         left: 960px; 
@@ -80,7 +65,42 @@ h2{
         position: fixed;
     }
     .redesociais{
-        cursor: pointer;
-        height: 50px;
-        width: 50px;
+        cursor:wait;
+       
+
+        
+        
     }
+    /*cabeçalho e links*/
+        background-color: Tomato;
+        padding: 0 10px;
+    }
+    nav{
+        position: absolute;
+        top:0;
+        right: 0;
+        height: 100px;
+        cursor:pointer;
+
+    }
+    nav li{
+        display: inline;
+        margin: 0 0 0 15px;
+     
+     
+    }
+    nav a{
+        text-transform:uppercase ;
+        color:#000000;
+        font-weight: bold;
+        font: size 22px; 
+        text-decoration: none;
+
+    }
+    .caixa{
+        position: relative;
+        width: 850px;
+        margin: 0 auto;
+    }
+   
+   
